@@ -5,7 +5,7 @@ import ShoppingCart from "./Components/ShoppingCart/ShoppingCart";
 import NavBar from "./Components/NavBar/NavBar";
 
 class App extends Component {
-  constuctor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       products: [],
